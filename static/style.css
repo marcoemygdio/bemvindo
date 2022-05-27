@@ -1,0 +1,22 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .messages {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: 1;
+}
+
+.success {
+  background-color: #006eff;
+  color: #fff;
+  border-radius: 15px;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+}
